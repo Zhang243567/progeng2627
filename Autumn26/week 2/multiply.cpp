@@ -1,0 +1,25 @@
+#include <iostream>
+
+int main(){
+    double n1, n2;
+    double product;
+    
+    std::cout << "please enter the first number" << std::endl;
+    std::cin >> n1;
+
+    std::cout << "please enter the second number" << std::endl;
+    std::cin >> n2;
+
+    product = n1 * n2;
+    // here the result of n1 + n2 is computed
+    // and it is stored in variable sum
+
+    std::cout << n1 << " * " << n2 << " = " <<  product << std::endl;
+    // this is a printing instruction printing
+    // the value in n1
+    // the symbol + (with spaces)
+    // the value in n2
+    // the symbol = (with spaces)
+    // the value in sum
+    // (and a newline at the end as usual)
+}
